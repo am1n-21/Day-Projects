@@ -1,0 +1,11 @@
+$purge [number] - deletes texts
+$poll [enter question here] - creates a reactive poll
+$vc_time [@user] - user time spent in vc
+
+$towatch_entry [movie name] - add movie to a watch list
+$towatch_clear [movie name] - remove movie from watch list
+$towatch_list - show the list
+$weather - weather of the day
+$zest_count - shows server zesty levels
+
+

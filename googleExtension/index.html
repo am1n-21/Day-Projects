@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="title-field">
+                <h1>cLocked In</h1>
+                <img id="logo-img" src="img/pray.webp" alt="Praying emoji">
+            </div>
+
+            <div id="display-field">
+                <div id="stats-display">Total Shift Hours: 0</div>
+            </div>
+    
+            <div id="input-field">
+                <div id="shift-field">
+                    <input id="shift-title-input" placeholder="Enter shift name">
+                    <div id="time-display"></div>
+
+                    <div id="button-field">
+                        <button class="shift-btn" id="shiftStart-btn" onclick="startClick()">Begin Shift</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

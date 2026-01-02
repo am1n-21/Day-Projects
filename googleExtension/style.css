@@ -1,0 +1,140 @@
+/* Raw HTML Tags */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", "Sans";
+}
+
+/* Container */
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    width: 350px;
+    min-height: 350px;
+    height: 350px;
+    background-color: #252525;
+    border: 1px solid #fbf2d6;
+    border-radius: 10px;
+}
+
+/* Title Field */
+#title-field {
+    margin-left: 15px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+}
+
+#logo-img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+}
+
+/* Display Field */
+#display-field {
+    background-color: #252525;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 325px;
+    border: 1px solid #fbf2d6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#stats-display {
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+
+/* Input Field */ 
+#input-field {
+    background-color: #252525;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 200px;
+    width: 325px;
+    border: 1px solid #fbf2d6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Shift Field */
+#shift-field {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#shift-title-input {
+    background-color: #252525;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 7px;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#shift-title-input:focus {
+    outline: none;
+    background-color: #252525;
+}
+
+#shift-title-input::placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+#shift-title-input:hover {
+    border-bottom: 1px solid #ffe186;
+}
+
+.shift-btn {
+    color: white;
+    margin-top: 10px;
+    background-color: #252525;
+    border: 1px solid #fbf2d6;
+    border-radius: 10px;
+    padding: 4px 6px;
+}
+
+.shift-btn:hover {
+    color: #ffe186;
+    border: 1px solid #ffe186;
+}
+
+#time-display {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #fbf2d6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-weight: bold;
+    font-size: 30px;
+    color: white; 
+}
